@@ -3,5 +3,5 @@
   tasks:
   - name: Clone a repo with separate git directory
     ansible.builtin.git:
-     repo: https://github.com/anandpavithran/ceph-cl260
-     dest: /tmp/sample1
+     repo: https://github.com/anandpavithran/DO180V4-14
+     dest: /home/student
