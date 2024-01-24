@@ -17,8 +17,8 @@
      dest: /usr/lib/
   - name: Copy3
     ansible.builtin.copy:
-     src: /tmp/DO180V4-14/ge
-     dest: /usr/bin/ge
+     src: /tmp/DO180V4-14/vhelp
+     dest: /usr/bin/vhelp
      mode: 777
 
   
