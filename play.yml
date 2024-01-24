@@ -10,7 +10,10 @@
     ansible.builtin.copy:
      src: /tmp/DO180V4-14/gluft
      dest: /usr/bin/gluft
-     mode: 777
+     owner: root
+     group: root
+     mode: 0777
+   
   - name: Copy2
     ansible.builtin.copy:
      src: /tmp/DO180V4-14/comset
@@ -19,6 +22,8 @@
     ansible.builtin.copy:
      src: /tmp/DO180V4-14/vhelp
      dest: /usr/bin/vhelp
-     mode: 777
+     owner: root
+     group: root
+     mode: 0777
 
   
