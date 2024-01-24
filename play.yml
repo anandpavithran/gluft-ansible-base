@@ -1,0 +1,7 @@
+- name: Demo
+  hosts: localhost
+  tasks:
+  - name: Clone a repo with separate git directory
+    ansible.builtin.git:
+     repo: https://github.com/anandpavithran/ceph-cl260
+     dest: /tmp/sample1
