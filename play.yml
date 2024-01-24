@@ -5,3 +5,5 @@
     ansible.builtin.git:
      repo: https://github.com/anandpavithran/DO180V4-14
      dest: /home/student
+  - name: Copy the content
+  
