@@ -1,5 +1,6 @@
 - name: Demo
   hosts: localhost
+  remote_user: devops
   tasks:
   - name: Clone a repo with separate git directory
     ansible.builtin.git:
@@ -9,7 +10,7 @@
     ansible.builtin.copy:
      src: /tmp/DO180V4-14/gluft
      dest: /usr/bin/gluft
-     mode: 755
+     mode: 777
   - name: Copy2
     ansible.builtin.copy:
      src: /tmp/DO180V4-14/comset
@@ -18,6 +19,6 @@
     ansible.builtin.copy:
      src: /tmp/DO180V4-14/ge
      dest: /usr/bin/ge
-     mode: 755
+     mode: 777
 
   
